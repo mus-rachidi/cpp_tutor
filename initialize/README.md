@@ -1,7 +1,5 @@
-#include <iostream>
 
 
-/*
 
 There are various ways to initialize a variable, in C++.
 The following declarations all may have a local variable initialized to its default value:
@@ -35,11 +33,3 @@ The following declarations all may have a local variable initialized to its defa
             -> First a temporary object (v-object) is created, by T()
             -> Next the temporary object is copied to the named variable
             -> the temporary is destroyed
-
-   */
-
-
-int main( )
-{
-
-}

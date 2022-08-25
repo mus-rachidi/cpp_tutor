@@ -13,7 +13,6 @@ void fun(int a)
 	cout << "Specialized Template for int type: "<< a << endl;
 }
 
-
 template <class T>
 class Test
 {

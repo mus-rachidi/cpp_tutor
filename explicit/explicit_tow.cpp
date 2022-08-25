@@ -27,8 +27,6 @@ int main()
     A obj1;
     f(B(obj1)); // Spot the deliberate mistake
 
-
-
     A obj;
     {
         B obj_arg0(obj); // A temporary for the lifetime of the call
