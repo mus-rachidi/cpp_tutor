@@ -6,7 +6,7 @@ The following declarations all may have a local variable initialized to its defa
 
          T1 var1;
          T2 var2 = 0;
-         T3 var3 = {};
+         T3 var3 = {}; // c++11
          T4 var4 = T4();
 
 
