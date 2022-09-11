@@ -31,7 +31,7 @@ struct Derived : Base<T>
        std::cerr << "Derived<T>::g\n  ";
          Base<T>::f();
             // this->f();//this is always implicitly dependent in a template
-    //      f();// compiler can't understand that the call f depends on the template parameter T
+    //      f(); compiler can't understand that the call f depends on the template parameter T
    }
 };
 

@@ -25,8 +25,8 @@ int main()
 {
     test obj;
     int  a;
-   // do_stuff(a);
-    do_stuff(obj);
+   do_stuff(a);
+    // do_stuff(obj);
     // =====> in vector STL
     std::vector<int> v1(4,8);
     std::vector<int> v2(std::begin(v1), std::end(v1));

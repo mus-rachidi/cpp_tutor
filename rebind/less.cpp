@@ -1,6 +1,6 @@
 #include <iostream>
 
-template<typename T>
+template<typename T = int>
 struct less
 {
     bool operator()(T const& lhs, T const& rhs)

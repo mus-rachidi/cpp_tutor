@@ -1,8 +1,7 @@
                         /*  Non-Type and Type Template Parameters */
 
 
-/* 
-
+/*
     -   Non-Type Template Parameters
         A non-type template argument provided within a template argument list
         is an expression whose value can be determined at compile time.
@@ -24,7 +23,7 @@ class Myfilebuf
 
 // A class template does not need to have a type argument if it has non-type arguments
 
-template<int i> 
+template<T i> 
 class C
 {
       public:

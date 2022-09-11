@@ -1,5 +1,7 @@
 #include <iostream>
-class A {};
+class A {
+    
+};
     
 // Another simple class with a single-argument constructor for class A
 class B
@@ -9,7 +11,7 @@ class B
             
             std::cout<< "default construction B call \n";
         }
-       explicit B(A const & t) {
+        explicit B(A const & t) {
             
             std::cout<< " B(A const & t) call \n";
 
